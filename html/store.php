@@ -42,7 +42,7 @@
 	<body>
 		<div class = "header">
 			<img src = "../images/store/logo.png" id = "logo_icon">
-			<h1>TruckDeal</h1>
+			<h1>TruckDealz</h1>
 			<a id = "main_page" href = "main_page.php"></a>
 			<button type = "button" class = "search-button"></button>
 			<div class = "search">

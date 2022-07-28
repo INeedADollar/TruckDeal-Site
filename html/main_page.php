@@ -10,7 +10,7 @@
 		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
 		<meta http-equiv="Pragma" content="no-cache"/>
 		<meta http-equiv="Expires" content="0"/>
-		<title>TruckDeal</title>
+		<title>TruckDealz</title>
 		<link rel = "stylesheet" href = "../css/main_page.css">
 		<script src = "../scripts/main_page.js"></script>
 		<link rel="icon" type="image/png" href="../images/favicons/logo16x16.png" sizes="16x16">
@@ -21,7 +21,7 @@
 	<body>
 		<div class = "header">
 			<img src = "../images/main_page/logo.png" id = "logo_icon">
-			<h1>TruckDeal</h1>
+			<h1>TruckDealz</h1>
 			<a id = "main_page" href = "main_page.php"></a>
 			 <?php
 				if (array_key_exists("loggedin", $_SESSION) && $_SESSION['loggedin'] == true){
@@ -79,7 +79,7 @@
 			</div>
 		</div>
 		<footer>
-			<p>© 2021 TruckDeal Company</p>
+			<p>© 2021 TruckDealz Company</p>
 		</footer>
 		<?php
 			if(!extension_loaded("gd"))

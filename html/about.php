@@ -13,13 +13,13 @@
 	<body>
 		<div class = "header">
 			<img src = "../images/about/logo.png" id = "logo_icon">
-			<h1>TruckDeal</h1>
+			<h1>TruckDealz</h1>
 			<a id = "main_page" href = "main_page.php"></a>
 		</div>
 		<div class = "main-view">
 			<div class = "backgr"></div>
 			<div class = "content">
-				<h1>Despre compania TruckDeal</h1>
+				<h1>Despre compania TruckDealz</h1>
 				<div class = "text">
 					<h2>1. Scurt istoric</h2>
 					<p>&emsp;Compania a fost fondată în anul 2021, de către Mirel Popescu. El fiind în domeniul camioanelor de mulţi ani, îşi dorea mai mult de la propria sa viaţă profesională. Îşi dorea să revoluţioneze domeniul camioanelor cumva, dar nu ştia cum.</p>
@@ -29,11 +29,11 @@
 					<p>&emsp;Nu a durat mult timp până când compania a devenit cunoscută, iar Mirel Popescu se bucură de succesul pe care îl are şi mai ales, de faptul că a reuşit sa ofere ajutor altor oameni la început de drum sau diferite companii să îşi marească flota de camioane, creând noi locuri de muncă.</p>
 					<br><br>
 					<h2>2. Viziunea companiei</h2>
-					<p>&emsp;Compania TruckDeal îşi doreşte să ofere tuturor celor interesaţi de achiziţionarea de camioane servicii care să facă cumpărarea de camioane o încântare pentru fiecare client al nostru. Oferim o gamă largă de camioane din care puteţi alege pentru a vă dezvolta compania de vis.</p>
+					<p>&emsp;Compania TruckDealz îşi doreşte să ofere tuturor celor interesaţi de achiziţionarea de camioane servicii care să facă cumpărarea de camioane o încântare pentru fiecare client al nostru. Oferim o gamă largă de camioane din care puteţi alege pentru a vă dezvolta compania de vis.</p>
 					<p>&emsp;Pentru a face lucrurile mai simple pentru clienţi, oferim transport gratuit pentru anumite camioane şi transport gratuit la achiziţionarea a două camioane, indiferent care ar fi ele. Pentru a rezerva camioane, pentru când vă veţi putea deplasa la reprezentanţa noastră, accesaţi magazinul nostru online -><a href = "store.php">aici</a><-. Camioanele rezervate vor fi ţinute pentru dumneavoastră cel mult 2 săptămâni, după care se va retrage statusul de rezervat şi vor putea fi rezervate de alţi clienţi.</p>
 					<br><br>
 					<h2>3. Reprezentanţă</h2>
-					<p>&emsp;În prezent, compania TruckDeal are reprezentanţă în toate oraşele mari ale Romaniei. Pentru mai multe informaţii şi pentru a vedea adresa sediului principal, apăsaţi -><a href = "contact.php">aici</a><-.</p>
+					<p>&emsp;În prezent, compania TruckDealz are reprezentanţă în toate oraşele mari ale Romaniei. Pentru mai multe informaţii şi pentru a vedea adresa sediului principal, apăsaţi -><a href = "contact.php">aici</a><-.</p>
 					<br><br>
 					<h2>4. Capital</h2>
 					<p>&emsp;În prezent, compania deţine un capital de €10.000.000, sedii în peste 15 oraşe şi peste 200 de angajaţi în total.</p>
