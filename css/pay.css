@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+	min-height: 100%;
+	background: url('../images/pay/background.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+.header {
+	position: relative;
+	width: 100%;
+	height: 10vh;
+	min-height: 60px;
+	user-select: none;
+}
+
+.header img {
+	position: absolute;
+	min-width: 100px;
+	min-height: 60px;
+	top: -10%;
+    width: 20.67415730337078651685393258427vh;
+	height: auto;
+	-webkit-user-drag: none;
+	user-drag: none;
+	pointer-events: none;
+}
+
+.header h1 {
+	position: absolute;
+	left: calc(20.67415730337078651685393258427vh - 10px);
+	color: #ffd700;
+	top: 50%;
+	transform: translateY(-50%);
+	font-family: 'Yellowtail';
+	font-size: 6vh;
+	display: inline-block;
+	text-align: center;
+	text-shadow: 1px 1px #8a795d;
+}
+
+#main_page {
+	position: absolute;
+	left: 0;
+	width: 46vh;
+	height: 10vh;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 85vh;
+}
+
+form {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 85.375vh;
+	height: 75.5vh;
+	padding: calc((0.26455026455026455026455026455vw + 0.462962962962962962962962962963vh) / 2);
+	border: 10px solid rgba(0,0,0,0);
+	border-radius: 20px;
+	box-shadow: 0 1vh 3vh rgba(0, 0, 0, 0.5);
+	background-color: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+	backdrop-filter: blur(3px);
+}
+
+form h1 {
+	margin-bottom: 10vh;
+	font-family: 'Poppins';
+	font-size: 3.75vh;
+	user-select: none;
+}
+
+input {
+	position: relative;
+	width: 100%;
+	height: 3.3666666666666666666666666666664vh;
+	top: -3vh;
+	font-family: sans-serif;
+	font-size: 3vh;
+	padding-left: 1vh;
+	padding-right: 1vh;
+	margin: 1.5vh;
+	border: none;
+	border-bottom: 0.3vh solid black;
+	background: transparent;
+}
+
+input:not(:placeholder-shown) {
+	border-bottom-color: black;
+}
+
+input:hover {
+	border-bottom-color: #FFA500 !important; 
+}
+
+input:focus {
+	outline: none;
+	border-bottom-color: #FFA500 !important;
+}
+
+.info {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 55.375vh;
+	height: 70.5vh;
+	padding: calc((0.26455026455026455026455026455vw + 0.462962962962962962962962962963vh) / 2);
+	border: 10px solid rgba(0, 0, 0, 0);
+	border-radius: 20px;
+	box-shadow: 0 1vh 3vh rgba(0, 0, 0, 0.5);
+	background-color: rgba(255, 255, 255, 0.4);
+	backdrop-filter: blur(3px);
+	margin-left: 10vw;
+	overflow: hidden;
+}
+
+.info-options {
+	width: 98vw;
+	height: 100%;
+}
+
+.total {
+    position: relative;
+	display: flex;
+	align-items: center;
+	top: 3%;
+	height: 85%;
+    border-radius: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    user-select: none;
+}
+
+.info-options h1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.total-content {
+    position: relative;
+	width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+	font-family: 'Poppins', sans-serif;
+	color: #FEF9EF;
+}
+
+.total-content::-webkit-scrollbar {
+    min-width: 5px;
+    width: 0.329100529100529100529100529101vw;
+}
+
+.total-content::-webkit-scrollbar-thumb {
+    background: #C1C1C1; 
+    border-radius: 1.5vh;
+}
+
+.total-content::-webkit-scrollbar-thumb:hover {
+    background: #A8A8A8; 
+}
+
+.total-item {
+    display: flex;
+    justify-content: space-between;
+	color: black;
+	margin-right: 5%;
+}
+
+#pay {
+	background: white;
+	border: 0.3vh solid black;
+	border-radius: 3vh;
+	font-family: 'Poppins';
+	font-weight: 500;
+	font-size: calc((2.5vh + 0.5vw) / 2);
+	box-shadow: 0 0.2vh 1vh rgba(0, 0, 0, 0.5);
+	width: 10vw;
+	height: 4vh;
+	margin-top: 5vh;
+	cursor: pointer;
+}
+
+#pay:hover {
+	border: 2px solid #fa7000;
+	background-color: #fa7000;
+}

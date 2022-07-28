@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100vh;
+	background: url('../images/about/background.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+	height: 10vh;
+	min-height: 60px;
+	user-select: none;
+}
+
+.header img {
+	position: absolute;
+	min-width: 100px;
+	min-height: 60px;
+	top: -10%;
+    width: 20.67415730337078651685393258427vh;
+	height: auto;
+	-webkit-user-drag: none;
+	user-drag: none;
+	pointer-events: none;
+}
+
+.header h1 {
+	position: absolute;
+	left: 15vh;
+	color: #4afff3;
+	top: 50%;
+	width: 30vh;
+	transform: translateY(-50%);
+	font-family: 'Yellowtail';
+	font-size: 6vh;
+	display: inline-block;
+	text-align: center;
+	text-shadow: 1px 1px #8a795d;
+}
+
+#main_page {
+	position: absolute;
+	left: 0;
+	width: 46vh;
+	height: 10vh;
+}
+
+.main-view {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 10vh;
+	height: 90vh;
+	width: 100vw;
+	scrollbar-width: none;
+	overflow-y: auto;
+}
+
+.main-view::-webkit-scrollbar {
+	display: none;
+}
+
+.content {
+	position: absolute;
+	width: 80%;
+	min-width: 100px;
+	height: 80%;
+	min-height: 218px;
+	margin: 20px;
+	color: #A0BAC7;
+	font-family: 'Poppins';
+	background-color: #00000090;	
+}
+
+@supports ((-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px))) {
+	.backgr {
+		display: none;
+	}
+	
+	.content {
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+	}
+}
+
+@supports not ((-webkit-backdrop-filter: blur(10px)) and (backdrop-filter: blur(10px))) {
+	.backgr {
+		position: absolute;
+		width: 80%;
+		min-width: 100px;
+		height: 55%;
+		min-height: 100px;
+		margin: 20px;
+		background-color: rgba(0, 0, 0, 200);
+		filter: blur(1000px);
+	}
+}
+
+.content h1 {
+	position: relative;
+	width: calc(100% - 2.5vh);
+	min-height: 28.8px;
+	height: 10vh;
+	margin: 1.25vh;
+	margin-bottom: 2.5vh;
+	text-align: center;
+	font-size: 3.5vh;
+	word-wrap: normal;
+	overflow: hidden;
+}
+
+.text {
+	position: relative;
+	width: calc(100% - 2.5vh));
+	height: calc(100% - 13.75vh);
+	margin-left: 2.5vh;
+	overflow: hidden;
+	overflow-y: scroll;
+	word-wrap: normal;
+	font-size: 2.5vh;
+	scrollbar-width: thin;
+	scrollbar-color: #C1C1C1 transparent;
+}
+
+.text::-webkit-scrollbar {
+  min-width: 2.5px;
+  width: 0.329100529100529100529100529101vw;
+}
+
+.text::-webkit-scrollbar-thumb {
+  background: #C1C1C1; 
+  border-radius: 1.5vh;
+}
+
+.text::-webkit-scrollbar-thumb:hover {
+  background: #A8A8A8; 
+}
+
+.content h2 {
+	font-size: 2.8vh;
+}
+
+.content p {
+	position: relative;
+	padding-right: 2.5vh;
+}
+
+.content a {
+	font-weight: 700;
+	color: #A0BAC7;
+	text-decoration: none;
+}
+
+.content a:hover {
+	text-decoration: underline;
+}
+
+.partners {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-right: 20px;
+}
+
+.partners img {
+	margins: 2.5vh;
+}
+
+#scania {
+	width: 6.291005291005291005291005291005vw;
+	height: 6.291005291005291005291005291005vw;
+}
+
+#man {
+	width: 6vw;
+	height: 3vw; 
+}
+
+#renault {
+	width: 5.9vw;
+	height: 5vw;
+}
+
+#daf {
+	width: 6.019607843137254901960784313725vw;
+	height: 3.019607843137254901960784313725vw;
+}
+
+#mercedes {
+	width: 5.82352941176470588235294117647vw;
+	height: 3.82352941176470588235294117647vw;
+}
+
+#iveco {
+	width: 7.019607843137254901960784313725vw;
+	height: 6.019607843137254901960784313725vw;
+}
+
+#volvo {
+	width: 5.82352941176470588235294117647vw;
+	height: 3.82352941176470588235294117647vw;
+}
+
+/*media queries*/
+@media all and (max-height: 380px) {
+	.main-view {
+		position: fixed;
+		top : 60px;
+	}		
+	
+	.content {
+		position: absolute;
+		top: -10px;
+	}
+	
+	.text text {
+		margin-left: 6.25px;
+	}
+	
+	.content h1 {
+		font-size: 10.08px;
+		margin: 3px;
+		margin-bottom: 6px;
+	}
+	
+	.content h2 {
+		font-size: 8.064px;
+	}
+	
+	.content p {
+		font-size: 7.2px;
+		padding-right: 5.5px;
+	}
+}
+
+@media all and (max-height: 475px) {
+	.header h1 {
+		left: 71.28px;
+		font-size: 28.512px;
+		width: 142.55px;
+		height: 49px;
+	}	
+}
