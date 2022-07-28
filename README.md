@@ -5,5 +5,6 @@
 [![Javascript](https://img.shields.io/badge/language-Javascript-pink)](https://www.javascript.com/)
 
 ## Overview
-Site created for a fictional company (if any company exists with this name, this site does not have anything to do with it) dealing with selling trucks at accessible prices. It
-is made as a personal project for exercising 
+Site created for a fictional company (if any company exists with this name, this site does not have anything to do with it) dealing with selling trucks at accessible prices. It is made as a personal project for exercising my skills.
+
+You can access the hosted site [here](https://truckdeal.herokuapp.com/html/main_page.php).
